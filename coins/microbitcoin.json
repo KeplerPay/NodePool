@@ -1,0 +1,6 @@
+{
+    "name": "MicroBitcoin",
+    "symbol": "MBC",
+    "algorithm": "groestl",
+    "normalHashing": true
+}

@@ -33,7 +33,7 @@
         "enabled": true,
         "host": "0.0.0.0",
         "port": 80,
-        "stratumHost": "cryppit.com",
+        "stratumHost": "your.pool.com",
         "stats": {
             "updateInterval": 60,
             "historicalRetention": 43200,
@@ -53,7 +53,7 @@
     "switching": {
         "switch1": {
             "enabled": false,
-            "algorithm": "sha256",
+            "algorithm": "groestl",
             "ports": {
                 "3333": {
                     "diff": 10,
@@ -63,38 +63,6 @@
                         "targetTime": 15,
                         "retargetTime": 90,
                         "variancePercent": 30
-                    }
-                }
-            }
-        },
-        "switch2": {
-            "enabled": false,
-            "algorithm": "scrypt",
-            "ports": {
-                "4444": {
-                    "diff": 10,
-                    "varDiff": {
-                        "minDiff": 16,
-                        "maxDiff": 512,
-                        "targetTime": 15,
-                        "retargetTime": 90,
-                        "variancePercent": 30
-                    }
-                }
-            }
-        },
-        "switch3": {
-            "enabled": false,
-            "algorithm": "x11",
-            "ports": {
-                "5555": {
-                    "diff": 0.001,
-                    "varDiff": {
-                        "minDiff": 0.001,
-                        "maxDiff": 1, 
-                        "targetTime": 15, 
-                        "retargetTime": 60, 
-                        "variancePercent": 30 
                     }
                 }
             }

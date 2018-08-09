@@ -1,0 +1,6 @@
+{
+    "name": "TestMicroBitcoin",
+    "symbol": "TMBC",
+    "algorithm": "groestl",
+    "normalHashing": true
+}
