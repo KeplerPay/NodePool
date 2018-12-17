@@ -1,8 +1,3 @@
-## This repo is looking for maintainers! Please reach out if interested.
-
---------
-
-
 # NOMP ![NOMP Logo](http://zone117x.github.io/node-open-mining-portal/logo.svg "NOMP Logo")
 #### Node Open Mining Portal
 
@@ -16,9 +11,7 @@ This is beta software. All of the following are things that can change and break
 #### Paid Solution
 Usage of this software requires abilities with sysadmin, database admin, coin daemons, and sometimes a bit of programming. Running a production pool can literally be more work than a full-time job. 
 
-
-**Coin switching & auto-exchanging for payouts in BTC/LTC** to miners is a feature that very likely will not be included in this project. 
-
+**This specific repository have support of Mirinae hash function designed and used by MicroBitcoin.**
 
 #### Table of Contents
 * [Features](#features)
@@ -46,8 +39,8 @@ Usage of this software requires abilities with sysadmin, database admin, coin da
 
 ### Features
 
-* For the pool server it uses the highly efficient [node-stratum-pool](//github.com/zone117x/node-stratum-pool) module which
-supports vardiff, POW & POS, transaction messages, anti-DDoS, IP banning, [several hashing algorithms](//github.com/zone117x/node-stratum-pool#hashing-algorithms-supported).
+* For the pool server it uses the highly efficient [node-stratum-pool](//github.com/MicroBitcoinOrg/NodeStratumPool) module which
+supports vardiff, POW & POS, transaction messages, anti-DDoS, IP banning, [several hashing algorithms](//github.com/MicroBitcoinOrg/NodeStratumPool#hashing-algorithms-supported).
 
 * The portal has an [MPOS](//github.com/MPOS/php-mpos) compatibility mode so that the it can
 function as a drop-in-replacement for [python-stratum-mining](//github.com/Crypto-Expert/stratum-mining). This

@@ -2,11 +2,10 @@
     "enabled": false,
     "coin": "microbitcoin.json",
 
-    "address": "n4jSe18kZMCdGcZqaYprShXW6EH1wivUK1",
+    "address": "PUT_POOL_ADDRESS_HERE",
 
     "rewardRecipients": {
-        "n37vuNFkXfk15uFnGoVyHZ6PYQxppD3QqK": 1.5,
-        "22851477d63a085dbc2398c8430af1c09e7343f6": 0.1
+        "PUT_REWARD_RECIPIENT_ADDRESS_HERE": 1.5 // Percentage of the total reward
     },
 
     "paymentProcessing": {
