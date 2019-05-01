@@ -1,6 +1,6 @@
 {
     "name": "Kepler",
     "symbol": "KPL",
-    "algorithm": "rainforest",
+    "algorithm": "rfv2",
     "normalHashing": true
 }
