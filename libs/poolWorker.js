@@ -5,6 +5,8 @@ var net     = require('net');
 var MposCompatibility = require('./mposCompatibility.js');
 var ShareProcessor = require('./shareProcessor.js');
 
+var multiHashing = require('multi-hashing');
+
 module.exports = function(logger){
 
     var _this = this;
@@ -177,7 +179,7 @@ module.exports = function(logger){
 
         var pool = Stratum.createPool(poolOptions, authorizeFN, logger);
         pool.on('share', function(isValidShare, isValidBlock, data){
-
+            data.sha256Hash == multiHashing["sha256d"](data);
             var shareData = JSON.stringify(data);
 
             if (data.blockHash && !isValidBlock)
