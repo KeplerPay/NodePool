@@ -5,7 +5,7 @@
     "address": "PUT_POOL_ADDRESS_HERE",
 
     "rewardRecipients": {
-        "PUT_REWARD_RECIPIENT_ADDRESS_HERE": 1.5 // Percentage of the total reward
+        "PUT_REWARD_RECIPIENT_ADDRESS_HERE": 1.5
     },
 
     "paymentProcessing": {

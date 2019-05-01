@@ -28,10 +28,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/MicroBitcoinOrg/NodePool.git"
+        "url": "https://github.com/KeplerPay/NodePool.git"
     },
     "dependencies": {
-        "stratum-pool": "git://github.com/MicroBitcoinOrg/NodeStratumPool.git",
+        "stratum-pool": "git://github.com/KeplerPay/NodeStratumPool.git",
         "dateformat": "1.0.12",
         "node-json-minify": "*",
         "redis": "0.12.1",

@@ -1,0 +1,6 @@
+{
+    "name": "TestKepler",
+    "symbol": "TKPL",
+    "algorithm": "groestl",
+    "normalHashing": true
+}
